@@ -1,0 +1,26 @@
+{
+  "name": "view-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montyanderson/view-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montyanderson/view-manager/issues"
+  },
+  "homepage": "https://github.com/montyanderson/view-manager#readme",
+  "dependencies": {
+    "glob": "^7.1.1"
+  },
+  "devDependencies": {
+    "express": "^4.14.0",
+    "hogan.js": "^3.0.2"
+  }
+}

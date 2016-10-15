@@ -1,10 +1,3 @@
-# view-manager
-
-An in-progress template-neutral view system for Express.
-
-## example
-
-``` javascript
 const express = require("express");
 const ViewManager = require("./");
 const Hogan = require("hogan.js");
@@ -23,4 +16,3 @@ app.set("view engine", "mustache");
 
 app.get("/", (req, res) => res.render("index"));
 app.listen(8080)
-```
